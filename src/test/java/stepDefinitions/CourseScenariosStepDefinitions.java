@@ -1,10 +1,10 @@
 package stepDefinitions;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.HomePage;
@@ -12,7 +12,7 @@ import pages.SignInPage;
 import pages.FashionPage;
 import pages.CartPage;
 
-import static org.junit.Assert.assertTrue;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class CourseScenariosStepDefinitions {
     private WebDriver driver;
